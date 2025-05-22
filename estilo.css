@@ -149,23 +149,24 @@ nav p{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-left: 15%;
     background-color: aliceblue;
     border-radius: 2.3%;
     border: 2px solid black;
-    margin-right:15.5%;
+    padding-left:5.5%;
+    margin-left:5%;
+    width:90%
 }
 
 #etiqueta_video2{
     width:62%;    
     text-align: center; 
-    margin-left: 1%;
+    margin-right: 10%;
     
 
 }
 
 .etiqueta_video4{
-    margin-left: 45%;
+    margin-left: 40%;
     width: 73%;
     font-size: 190%;
 
@@ -176,15 +177,14 @@ footer {
     text-align: center;
     background-color: aliceblue;
     border-radius: 2.3%;
-    width: 30%;
+    width: 35%;
     border: 2px solid black;
-    margin-left: 35%;
+    margin-left: 33%;
     z-index: 1;
     position: relative;
     
 }
 
-/*Video de fondo*/
 #video{
     position: absolute;
     top:0;
@@ -194,9 +194,9 @@ footer {
     opacity: 10;
     object-fit: cover;
 }
-/*texto de fondo*/
+
+
 #contenido{
-    /*main ya tiene flex box centrado*/
    width:100%;      
    z-index: 3;
    position: relative;
