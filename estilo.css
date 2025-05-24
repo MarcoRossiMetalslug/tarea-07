@@ -195,7 +195,6 @@ footer {
 }
 
 #contenido{
-    /*main ya tiene flex box centrado*/
    width:100%;      
    z-index: 3;
    position: relative;
