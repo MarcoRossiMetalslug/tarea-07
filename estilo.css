@@ -129,7 +129,6 @@ nav p{
     border: 2px solid black;
 }
 
-/*Videos responsivos*/
 .video-responsive{
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
@@ -195,7 +194,7 @@ footer {
     opacity: 10;
     object-fit: cover;
 }
-/*texto de fondo*/
+
 #contenido{
     /*main ya tiene flex box centrado*/
    width:100%;      
